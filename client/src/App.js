@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-        Setting up the work environment for the project.
+        Setting up the development environment for the project.
         </p>
         <a
           className="App-link"
