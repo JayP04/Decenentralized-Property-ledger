@@ -1,0 +1,7 @@
+.maincar {
+    width: 100%;
+    max-width: 450px; /* Example width, adjust as needed */
+    margin: auto; /* Center the carousel */
+    overflow: hidden; /* Hide overflow */
+  }
+  

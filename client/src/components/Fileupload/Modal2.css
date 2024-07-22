@@ -1,0 +1,9 @@
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 900px;
+    max-height: 600px;
+    overflow-y: auto;
+    height: 450px;
+  }

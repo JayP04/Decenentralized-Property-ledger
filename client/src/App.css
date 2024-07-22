@@ -1,7 +1,115 @@
 .App {
   text-align: center;
+  background: #000000;
+  font-family:'Courier New', Courier, monospace;
+  font-size: larger;
 }
 
+body {
+  background: #000000;
+  min-height: 400vh;
+}
+.header {
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+
+.title {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  font-size: xx-large;
+
+}
+
+.options {
+  color: rgb(255, 255, 255);
+}
+
+.aboutusop {
+  color: rgb(255, 255, 255);
+  background-color: rgb(112, 110, 110);
+  position: absolute;
+  top: 40px;
+  right: 2%;
+  font-size: larger;
+  transition: font-size 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.aboutusop:hover {
+  color: #000000;
+  transform: scale(1.1);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.verifyop {
+  color: rgb(255, 255, 255);
+  background-color: rgb(112, 110, 110);
+  position: absolute;
+  top: 40px;
+  right: 30%;
+  font-size: larger;
+  transition: font-size 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.verifyop:hover {
+  color: #000000;
+  scale: 1.1;
+  font-size: x-large;
+  font-weight: bold;
+
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translateY(-50%);
+}
+
+.right {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 120vh;
+  right: 20%;
+  transform: translateY(-50%);
+}
+
+.car1 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 200vh;
+  right: 33%;
+  transform: translateY(-50%);
+  max-width: 100%;
+  margin-bottom: 50px;
+   /* Add margin-bottom to create vertical space */
+  
+}
+
+.car2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  right: 39%;
+  transform: translateY(-50%);
+  top: 250vh;
+  margin-top: 50px; /* Increase the top value to create more vertical space */
+  max-width: 400px;
+}
+
+.fileinput {
+  color: white;
+  position: absolute;
+  top: 100vh;
+}
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,12 +122,10 @@
 }
 
 .App-header {
-  background-color: navajowhite;
-  min-height: 100vh;
+  background-color: rgb(148, 147, 144);
+  min-height: 10;;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
 }
@@ -36,3 +142,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Header {
+  background-color: navajowhite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+.topheader {
+  background-color: navajowhite;
+  min-height: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+  
+
+*/

@@ -1,0 +1,7 @@
+.distributedcarousel {
+    width: 1%;
+    max-width: 100px; /* Example width, adjust as needed */
+    margin: auto; /* Center the carousel */
+    overflow: hidden; /* Hide overflow */
+  }
+  
