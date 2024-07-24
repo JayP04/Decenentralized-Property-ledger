@@ -146,8 +146,7 @@ function FileUpload() {
 
     return (
       <>
-        <Button onClick={openModal} borderRadius="1.75rem"
-        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800">Upload File</Button>
+        <button onClick={openModal} className='fileuploadbutton'>Upload File</button>
         {isOpen && (
           <Modal isOpen={isOpen} onClose={closeModal}>
             <div className='upload'
@@ -171,7 +170,7 @@ function FileUpload() {
           <div className="textareaField">
               <textarea
               style={{resize: 'both', color: 'black', border: '1px solid black', }}
-              placeholder="Description"
+              placeholder="Property Description"
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               
@@ -181,11 +180,16 @@ function FileUpload() {
           <div className='documentationinputdiv'>
               <input
               type="file"
+              id='documentation'
               placeholder="Property Document"
               //value={document} commenting off this worked for the file upload. 
               onChange={(e) => setDocument(e.target.files[0])}
               className="inputdocumentation"
+              style={{display: 'none'}}
               />
+              <label htmlFor='documentation' className='documentationinput'>
+                Upload Documentation
+              </label>
           </div>
 
           <div className='submitbutton'>

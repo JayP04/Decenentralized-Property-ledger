@@ -86,24 +86,24 @@ export default function Gallery() {
 
 };
 
-    // return (
-    //     <>
-    //   <CarouselSize nfts={NFTs} onNFTClick={handleNFTClick} />
-    //   {modalVisible && (
-    //     <Modal
-    //       isVisible={modalVisible}
-    //       onClose={() => setModalVisible(false)}
-    //       content={
-    //         <>
-    //           <img src={currentNFT.image} alt="NFT" />
-    //           <p>{currentNFT.description}</p>
-    //           <a href={currentNFT.deedLink}>Title Deed</a>
-    //         </>
-    //       }
-    //     />
-    //   )}
-    // </>
-    // );
-    return <CarouselSize nfts={NFTs} />;
+    return (
+        <>
+      <CarouselSize nfts={NFTs} onNFTClick={handleNFTClick} />
+      {modalVisible && (
+        <Modal
+          isVisible={modalVisible}
+          onClose={() => setModalVisible(false)}
+          content={
+            <>
+              <img src={currentNFT.image} alt="NFT" />
+              <p>{currentNFT.description}</p>
+              <a href={currentNFT.deedLink}>Title Deed</a>
+            </>
+          }
+        />
+      )}
+    </>
+    );
+    
     
 };
