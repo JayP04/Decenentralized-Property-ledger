@@ -18,7 +18,7 @@ function Fileupload() {
 */
 
 
-
+"use client";
 import React, { useState, useEffect } from 'react';
 import './Modal2.css';
 import { useDropzone } from 'react-dropzone';
@@ -26,6 +26,7 @@ import './Fileupload.css';
 import Modal from '../Modal/Modal';
 import contractABI from "../../abis/contractABI.json";
 import { ethers } from "ethers";
+import { Button } from "../ui/moving-border";
 
   
 
@@ -145,7 +146,8 @@ function FileUpload() {
 
     return (
       <>
-        <button onClick={openModal} className='fileuploadbutton'>Upload File</button>
+        <Button onClick={openModal} borderRadius="1.75rem"
+        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800">Upload File</Button>
         {isOpen && (
           <Modal isOpen={isOpen} onClose={closeModal}>
             <div className='upload'
@@ -164,15 +166,6 @@ function FileUpload() {
               </div>
              </div> 
 
-          <div>
-              <input
-              type="file"
-              placeholder="Property Document"
-              //value={document} commenting off this worked for the file upload. 
-              onChange={(e) => setDocument(e.target.files[0])}
-              className="inputdocumentation"
-              />
-          </div>
 
 
           <div className="textareaField">
@@ -184,7 +177,16 @@ function FileUpload() {
               
               />
           </div>
-
+          
+          <div className='documentationinputdiv'>
+              <input
+              type="file"
+              placeholder="Property Document"
+              //value={document} commenting off this worked for the file upload. 
+              onChange={(e) => setDocument(e.target.files[0])}
+              className="inputdocumentation"
+              />
+          </div>
 
           <div className='submitbutton'>
               <button onClick={() => mintNFT()}>Submit</button>

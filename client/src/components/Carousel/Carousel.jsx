@@ -52,6 +52,7 @@ import {
 
 export function CarouselSize({ nfts }) {
   return (
+  <div className="carousel-container"> 
     <Carousel
       opts={{
         align: "start",
@@ -79,6 +80,7 @@ export function CarouselSize({ nfts }) {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
+  </div>
   );
 }
 

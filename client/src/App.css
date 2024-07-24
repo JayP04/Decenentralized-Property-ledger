@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background: #000000;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
   font-size: larger;
 }
 
@@ -37,7 +37,7 @@ body {
   top: 40px;
   right: 2%;
   font-size: larger;
-  transition: font-size 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: font-size 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 10px;
   border-radius: 5px;
 }
@@ -55,9 +55,9 @@ body {
   background-color: rgb(40, 40, 40);
   position: absolute;
   top: 40px;
-  right: 30%;
+  right: 26%;
   font-size: larger;
-  transition: font-size 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: font-size 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 10px;
   border-radius: 5px;
   
@@ -72,12 +72,36 @@ body {
 
 }
 
+.pre-intro {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 40vh;
+  left: 20vh;
+  right: 20vh;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.linktommw {
+  color: royalblue;
+}
+
 .intro {
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 50%;
-  left: 40%;
+  justify-content: center;
+  align-items: center;
+  top: 150vh;
+  left: 20vh;
+  right: 20vh;
   transform: translateY(-50%);
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .right {
@@ -88,13 +112,14 @@ body {
   transform: translateY(-50%);
 }
 
-.car1 {
+.carousel {
   color: rgb(255, 255, 255);
   position: absolute;
-  top: 200vh;
-  right: 33%;
+  top: 300vh;
+  left: 30vh;;
   transform: translateY(-50%);
-  max-width: 100%;
+  width: 100%;
+  max-width: 70%;
   margin-bottom: 50px;
    /* Add margin-bottom to create vertical space */
   

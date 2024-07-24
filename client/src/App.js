@@ -29,10 +29,16 @@ function App() {
         </header>
 
         <body>
+          <div className='pre-intro'>
+            <h1>Welcome!</h1>
+            <p>To proceed, please connect your MetaMask wallet by clicking the button above.</p>
+            <p>If you don't have MetaMask installed yet, kindly install it from the <a className='linktommw' href="https://metamask.io/" target="_blank">MetaMask website</a> and come back. Thank you!</p>
+
+          </div>
 
           <div className='body'>
             <div className='intro'>
-              <p>Welcome intro goes here...</p>
+              <p>Welcome to PropNfts. A decentralized Property Ledger that stores your property details as Non-Fungible Tokens. </p>
             </div>
             
             <div className='fileinput'>

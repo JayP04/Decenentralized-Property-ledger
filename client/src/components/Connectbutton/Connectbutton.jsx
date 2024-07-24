@@ -30,6 +30,7 @@ function Connectbutton() {
             <div className="connect">
                 {!isWalletConnected && <p className='accounttext'>Connect your wallet 🔥</p>}
                 <button className="connectbutton" onClick={connectWalletHandler}>Connect Wallet</button>
+                <p className='text-red-400'>{errorMessage}</p>
             </div>
             {isWalletConnected && <p className='accounttext2'>Connected ✅</p>}
             {isWalletConnected && (
