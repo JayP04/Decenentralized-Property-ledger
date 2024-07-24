@@ -47,7 +47,7 @@ function App() {
 
           <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
             <h2>About Us</h2>
-            <p>We are a team of developers working on a project to decentralize the property ledger.</p>
+            <p>A decentralized propery ledger that stores your property details as NFTs using blockchain technology. Being a decentralized application, this makes the near future efficient and transparent in real-estate sector.</p>
           </Modal>
         </body>
       </div>
