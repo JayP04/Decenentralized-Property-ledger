@@ -12,10 +12,13 @@ body {
 .header {
   color: rgb(255, 255, 255);
   margin-top: 100px;
+  font-size: large;
+  font-weight: bold;
 }
 
 .title {
   position: absolute;
+  cursor: pointer;
   top: 40px;
   left: 10px;
   font-size: xx-large;
@@ -24,11 +27,12 @@ body {
 
 .options {
   color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .aboutusop {
   color: rgb(255, 255, 255);
-  background-color: rgb(112, 110, 110);
+  background-color: rgb(40, 40, 40);
   position: absolute;
   top: 40px;
   right: 2%;
@@ -39,7 +43,8 @@ body {
 }
 
 .aboutusop:hover {
-  color: #000000;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   transform: scale(1.1);
   font-size: x-large;
   font-weight: bold;
@@ -47,7 +52,7 @@ body {
 
 .verifyop {
   color: rgb(255, 255, 255);
-  background-color: rgb(112, 110, 110);
+  background-color: rgb(40, 40, 40);
   position: absolute;
   top: 40px;
   right: 30%;
@@ -60,6 +65,7 @@ body {
 
 .verifyop:hover {
   color: #000000;
+  background-color: rgb(255, 255, 255);
   scale: 1.1;
   font-size: x-large;
   font-weight: bold;

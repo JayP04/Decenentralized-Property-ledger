@@ -1,6 +1,6 @@
 .connectbutton {
     color: rgb(255, 255, 255);
-    background-color: rgb(112, 110, 110);
+    background-color: rgb(40, 40, 40);
     position: absolute;
     top: 40px;
     right: 13%;
@@ -12,6 +12,7 @@
   
 .connectbutton:hover {
     color: #000000;
+    background-color: rgb(255, 255, 255);
     scale: 1.1;
     font-size: x-large;
     font-weight: bold;

@@ -1,7 +1,11 @@
 .distributedcarousel {
-    width: 1%;
-    max-width: 100px; /* Example width, adjust as needed */
-    margin: auto; /* Center the carousel */
+    width: 100%;
+    max-width: 800px; /* Example width, adjust as needed */
+    margin: 0 auto; /* Center the carousel */
     overflow: hidden; /* Hide overflow */
   }
+
+.mainitem {
+  max-width: fit-content;
+}
   

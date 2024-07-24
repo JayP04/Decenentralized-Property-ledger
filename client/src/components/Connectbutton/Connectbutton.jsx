@@ -34,7 +34,7 @@ function Connectbutton() {
             {isWalletConnected && <p className='accounttext2'>Connected ✅</p>}
             {isWalletConnected && (
             <div className='accountdisplay'>
-                <p>Account: {defaultAccount}</p>
+                <p>Wallet Address: {defaultAccount}</p>
             </div>
             )}
         </div>
