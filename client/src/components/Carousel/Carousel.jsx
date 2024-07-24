@@ -69,7 +69,15 @@ export function CarouselSize({ nfts }) {
                     <img src={nft.image} alt={nft.name} className="mb-4" />
                     <span className="text-xl font-semibold">{nft.name}</span>
                     <p className="mt-2">{nft.description}</p>
-                    <a href={nft.deedLink} className="text-blue-500 mt-2 block">View Deed</a>
+                    <button
+                      onClick={() => {
+                      console.log(nft.deedlink);
+                      window.open(nft.deedlink, '_blank');
+                      }}
+                      className="text-blue-500 mt-2 block"
+                    >
+                      Title Deed
+                    </button>
                   </div>
                 </CardContent>
               </Card>

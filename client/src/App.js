@@ -41,6 +41,10 @@ function App() {
               <p>Welcome to PropNfts. A decentralized Property Ledger that stores your property details as Non-Fungible Tokens. </p>
             </div>
             
+            <div className='textforuploadbutton'>
+              <p>Upload your property details as NFTs using the button below.</p>
+            </div>
+
             <div className='fileinput'>
               <Fileupload />
             </div>

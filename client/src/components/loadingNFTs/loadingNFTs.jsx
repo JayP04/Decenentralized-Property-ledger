@@ -97,7 +97,7 @@ export default function Gallery() {
             <>
               <img src={currentNFT.image} alt="NFT" />
               <p>{currentNFT.description}</p>
-              <a href={currentNFT.deedLink}>Title Deed</a>
+              <a href={currentNFT.deedlink}>Title Deed</a>
             </>
           }
         />

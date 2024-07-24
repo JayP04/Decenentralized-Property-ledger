@@ -156,3 +156,15 @@ body {
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
+
+.textforuploadbutton {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: absolute;
+  top: 180vh;
+  left: 55vh;
+  right: 30%;
+}
