@@ -39,13 +39,14 @@
     color: white;
     font-size: larger;
     transition: font-size 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
-    top: 30vh;
+    top: 40vh;
     width: 200px;
     left: 43%;
 }
 
 .fileuploadbutton:hover {
     color: black;
+    background-color: white;
     font-size: x-large;
     font-weight: bold;
     transform: scale(1.1);

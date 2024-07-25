@@ -1,12 +1,13 @@
-.html {
+/* .html {
   scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  background: #000000;
+  background: linear-gradient(black, grey);
   font-family: 'Times New Roman', Times, serif;
   font-size: larger;
+
 
 }
 
@@ -121,12 +122,10 @@ body {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 300vh;
-  left: 30vh;;
+  left: 45vh;;
   transform: translateY(-50%);
   width: 100%;
-  max-width: 70%;
-  margin-bottom: 50px;
-   /* Add margin-bottom to create vertical space */
+  max-width: 60%;
   
 }
 
@@ -136,7 +135,7 @@ body {
   right: 39%;
   transform: translateY(-50%);
   top: 250vh;
-  margin-top: 50px; /* Increase the top value to create more vertical space */
+  margin-top: 50px; 
   max-width: 400px;
 }
 
@@ -164,7 +163,179 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   position: absolute;
-  top: 180vh;
+  top: 195vh;
   left: 55vh;
   right: 30%;
+} */
+
+
+/* App.css */
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+body {
+  background: #000000;
+  min-height: 350vh;
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.title {
+  position: absolute;
+  cursor: pointer;
+  top: 40px;
+  left: 10px;
+  font-size: xx-large;
+}
+
+.options {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.aboutusop {
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 40, 40);
+  position: absolute;
+  top: 40px;
+  right: 2%;
+  font-size: larger;
+  transition: font-size 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.aboutusop:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.verifyop {
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 40, 40);
+  position: absolute;
+  top: 40px;
+  right: 26%;
+  font-size: larger;
+  transition: font-size 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.verifyop:hover {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  scale: 1.1;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.pre-intro {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 40vh;
+  left: 20vh;
+  right: 20vh;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.linktommw {
+  color: royalblue;
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 150vh;
+  left: 20vh;
+  right: 20vh;
+  transform: translateY(-50%);
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.right {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 120vh;
+  right: 20%;
+  transform: translateY(-50%);
+}
+
+.carousel {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 300vh;
+  left: 45vh;
+  transform: translateY(-50%);
+  width: 100%;
+  max-width: 60%;
+}
+
+.car2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  right: 39%;
+  transform: translateY(-50%);
+  top: 250vh;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+.fileinput {
+  position: absolute;
+  top: 180vh;
+  left: 43%;
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  bottom: 10vh;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.textforuploadbutton {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  position: absolute;
+  top: 195vh;
+  left: 55vh;
+  right: 30%;
+}
+
+/* BackgroundContainer.css */
+.background-container {
+  background: linear-gradient(black, grey);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
 }

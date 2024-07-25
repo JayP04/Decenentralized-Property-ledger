@@ -74,7 +74,7 @@ export function CarouselSize({ nfts }) {
                       console.log(nft.deedlink);
                       window.open(nft.deedlink, '_blank');
                       }}
-                      className="text-blue-500 mt-2 block"
+                      className="text-blue-500 mt-2 block border border-blue-500 rounded px-4 py-2"
                     >
                       Title Deed
                     </button>
